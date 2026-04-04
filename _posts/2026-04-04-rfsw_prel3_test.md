@@ -110,7 +110,7 @@ Pre-L3 测试包括功能集成的Pre-L3部分、性能集成测试（PIT）、�
 ### 4.3 Pre-L3 自动化测试软件框架
 Pre-L3自动化测试软件框架如下图。
 
-![Pre L3模块框架](images/PreL3-Automation_PreL3-TA-Framework.jpg)
+![Pre L3模块框架](https://jockeycjg.github.io/images/rfsw_prel3_test/PreL3-Automation_PreL3-TA-Framework.jpg)
 
 ### 4.4 Pre-L3 自动化测试代码结构
 Pre-L3自动化测试代码主要使用Python，Robot Framework，Jenkins Groovy，Shell等语言实现。
