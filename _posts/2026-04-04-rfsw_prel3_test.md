@@ -65,7 +65,7 @@ Unit/L1 阶段作为第一道防线，重点关注基本功能可用性。Pre-L3
 
 ### 3.2 Pre-L3 测试执行流程
 
-Pre-L3 测试包括功能集成的Pre-L3部分、性能集成测试（PIT）、兼容性集成测试（CIT）、一致性测试（CRT）以及无线电稳健性测试，并且不同的测试阶段采用不同的测试策略。
+Pre-L3 测试包括Pre-L3功能集成的手动测试，还有PIT(Plane Integration Tests)、CIT(Continuous Integration Tests)、CRT(Continuous Regression Tests)以及无线电稳健性测试，并且不同的测试阶段采用不同的测试策略。
 
 *   **准入与基础集成**：承接 Unit/L1 输出。
 *   **深度回归网络**：覆盖安全测试、接口认证及无线信号性能验证。
