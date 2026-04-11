@@ -24,7 +24,7 @@ author: ChenJiangang
     *   确保零缺陷代码合入，保障主分支绝对稳定。
 
 
-![核心双擎架构](https://jockeycjg.github.io/images/rfsw-lib-intro/core-dual-engine.jpg)
+![核心双擎架构](https://jockeycjg.github.io/images/prel3-lib-intro/core-dual-engine.jpg)
 
 > **核心价值**：强大的底层测试库结合严格的协同评审机制，构筑了射频验证体系的高效与高可靠运转闭环。
 
@@ -45,7 +45,7 @@ author: ChenJiangang
     *   编码开发 -> 生成关键字 -> 底层库提交。
 
 
-![解耦协作流程](https://jockeycjg.github.io/images/rfsw-lib-intro/de-coupling-flow.jpg)
+![解耦协作流程](https://jockeycjg.github.io/images/prel3-lib-intro/de-coupling-flow.jpg)
 
 ### 2.2 核心交接点
 *   **Jira 任务管理**：作为跨角色协作的唯一入口。
@@ -65,7 +65,7 @@ Pre-L3 仓库在逻辑上分为团队工作区与 CI 核心库，架构设计实
 | **基础通信与稳定器** | MCS Control, SA/SG Control, Log      | 基础设施稳定性保障 |
 
 
-![Pre-L3架构蓝图](https://jockeycjg.github.io/images/rfsw-lib-intro/pre-l3-architecture.jpg)
+![Pre-L3架构蓝图](https://jockeycjg.github.io/images/prel3-lib-intro/pre-l3-architecture.jpg)
 
 ---
 
@@ -84,7 +84,7 @@ Pre-L3 仓库在逻辑上分为团队工作区与 CI 核心库，架构设计实
     *   *针对射频实验室特定硬件环境的精准破局。*
 
 
-![Python模块矩阵](https://jockeycjg.github.io/images/rfsw-lib-intro/python-matrix.jpg)
+![Python模块矩阵](https://jockeycjg.github.io/images/prel3-lib-intro/python-matrix.jpg)
 
 ---
 
@@ -109,7 +109,7 @@ Pre-L3 仓库在逻辑上分为团队工作区与 CI 核心库，架构设计实
 
 ### 6.2 Gerrit 协同运转架构
 
-![Gerrit架构图](https://jockeycjg.github.io/images/rfsw-lib-intro/gerrit-architecture.jpg)
+![Gerrit架构图](https://jockeycjg.github.io/images/prel3-lib-intro/gerrit-architecture.jpg)
 
 > **核心逻辑**：所有代码在合入主干前必须经过 Pending 隔离区，强制拦截不合格代码。
 
